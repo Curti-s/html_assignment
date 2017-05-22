@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="send.php" method="post">
+        <p>
+            <label for="car"><b>What kind of car would you like to buy?</b></label> <br> <br>
+            <input type="radio" selected="selected"> Proton
+            <input type="radio"> Honda
+            <input type="radio"> Ferrari
+            <input type="radio"> Ford
+        </p>
+        <p>
+            <label for="color"><b>What color do you want on your car?</b></label> <br> <br>
+            <select name="color_pref" id="color">
+                <option value="black">Black</option>
+            </select>
+            Other<input type="text">
+        </p>
+        <p>
+            <label for="spec"><b>Enter other specification of your preferred car:</b></label> <br> <br>
+            <textarea name="specifications" id="spec" cols="40" rows="10"></textarea>
+        </p>
+        <p> <b>Tell us how to get in touch with you:</b></p>
+        <p>
+                <label for="name">Name</label> 
+                <input type="name">
+                <br> <br>
+                <label for="email">Email</label>
+                <input type="email">
+                <br> <br>
+                <label for="tel">Tel  :</label>
+                <input type="number">
+
+                <br>
+                <input type="checkbox"> Please contact me as soon as possible regarding this matter <br>
+                My email <a href="ezmir.razali@mmu.edu.my">ezmir.razali@mmu.edu.my</a>
+        </p>
+        <table>
+            <td>
+                <button type="submit">Send</button>
+            </td>
+            <td>
+                <button type="reset">Clear</button>
+            </td>
+        </table>
+        <p>
+            <a href="index.html">Back to Main Page</a>
+        </p>
+        
+    </form>
+</body>
+</html>
